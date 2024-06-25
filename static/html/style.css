@@ -28,6 +28,8 @@ body {
   transform-style: preserve-3d;
   transition: transform .5s;
   box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  
+  
 }
 
 .memory-card:active {
@@ -46,14 +48,43 @@ body {
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  background: #1C7CCC;
   backface-visibility: hidden;
+  
 }
-
-.front {
-  transform: rotateY(180deg);
-}
-
 .back {
-  background-color: red;
+  background-color: rgb(174, 167, 113);
+}
+
+.c1 {
+  transform: rotateY(180deg);
+  background-color: rgb(229, 122, 55); 
+}
+
+.c2 {
+  transform: rotateY(180deg);
+  background-color: rgb(243, 30, 30);
+}
+.c3 {
+  transform: rotateY(180deg);
+  background-color: rgb(171, 19, 226);
+}
+.c4 {
+  transform: rotateY(180deg);
+  background-color: rgb(55, 179, 228);
+}
+.c5 {
+  transform: rotateY(180deg);
+  background-color: rgb(244, 56, 212);
+}
+.c6 {
+  transform: rotateY(180deg);
+  background-color: rgb(61, 229, 55);
+}
+.c7 {
+  transform: rotateY(180deg);
+  background-color: rgb(192, 155, 190);
+}
+.c8 {
+  transform: rotateY(180deg);
+  background-color: rgb(236, 236, 69);
 }
